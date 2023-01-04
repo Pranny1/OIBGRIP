@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Landing Page of Product</title>
+</head>
+<body>
+ <nav>
+   <div class="logo">HALO WEB SERVICES</div>
+   <span class="menubtn" onclick="UpNavigation()">&#9776;</span>
+
+   <div class="navLinks">
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">About Us</a></li>
+       <li><a href="#">Contact Us</a></li>
+       <button type="button">Login</button>
+     </ul>
+   </div>
+ </nav>
+   <div class="sideNav" id="sidenav">
+     <a href="#" class="closeBtn" onclick="DownNavigation()"> &#10006;</a>
+     <a href="#">Home</a>
+     <a href="#">Services</a>
+     <a href="#">About Us</a>
+     <a href="#">Contact Us</a>
+     <a href="#"><button type="button">Login</button> </a>
+   </div>
+   <div class="row">
+     <div class="column1">
+       <h1> <font color="pink">INCUBATION & ILLUMINATION CENTRE</font></h1>
+       <p><font color="violetblue"> Your website is the face of your business. 
+          The First impression better be impressive.</font> </p>
+       <p>To make more Innovative web page feel free to contact us..!</p>
+       <button>BUY $0.99</button>
+     </div>
+     <div class="column2">
+       <img src="https://www.hmablogs.com/wp-content/uploads/2022/06/banner-img.png" alt="banner" width="500px">
+     </div>
+   </div>
+  
+   
+ <script>
+   function UpNavigation() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function DownNavigation() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+
+</body>
+</html>
