@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(86, 204, 225);
+    color: whitesmoke;
+}
+
+label{
+    font-size: 30px;
+}
+
+
+.container{
+    text-align: center;
+    margin-top: 210px;
+}
+
+input{
+    border-color: black;
+    font-family: "Lucida" Grande, sans-serif;
+    font-size: 30px;
+}
+.button{
+    background-color: rgb(13, 21, 1);
+    color: #fff;
+    height: auto;
+    width: 230px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
