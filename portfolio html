@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="shortcut icon" href="slogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+<!-------navigation bar---------------------->
+<header>
+    <a href="" class="logo">It's About Me</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Skills</a></li>
+        <li><a href="">Learning</a></li>
+        <li><a href="">Contact</a></li>
+
+    
+    </ul>
+</header>
+
+
+<!--------------Home section------------->
+<section class="home" id="home">
+    <div class="social">
+        <a href=""><i class="bx bxl-github"></i></a>
+        <a href=""><i class="bx bxl-linkedin"></i></a>
+        <a href=""><i class="bx bxl-twitter"></i></a>
+    </div>
+
+    <div class="home-img">
+        <img src="image.JPEG" alt="">
+    </div>
+
+    <div class="home-text">
+        <span>Hello, This is</span>
+        <h1>Naroju Praneeth</h1>
+        <h2>Student</h2>
+        <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
+
+        <a href="" class="btn">Contact Me</a>
+    </div>
+</section>
+<!-------------------about section------------------->
+<section class="about" id="about">
+    <div class="heading">
+        <h2>About Me</h2>
+        <span>Introduction</span>
+    </div>
+
+    <div class="about-container">
+        <div class="about-img">
+            <img src="intro" alt="">
+        </div>
+
+        <div class="about-text">
+            <p> I am a dedicated, organized and methodical individual. I have good interpersonal skills, am an excellent team worker and am keen and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. I have an active and dynamic approach to work and getting things done. I am determined and decisive. I identify and develop opportunities.</p>
+        </div>
+
+        <div class="information">
+            <div class="info-box">
+                <i class="bx bxs-user"></i>
+                <span>Naroju Praneeth</span>
+            </div>
+
+            <div class="info-box">
+                <i class="bx bxs-phone"></i>
+                <span>+91 9700508825</span>
+            </div>
+
+            <div class="info-box">
+                <i class="bx bxs-envelope"></i>
+                <span>info@pr.com</span>
+            </div>
+
+            <div>
+                <a href="" class="btn">Download Resume</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------skills section---------------->
+
+<section class="skills" id="skills">
+    <div class="heading">
+        <h2>Skills</h2>
+        <span>My Skills</span>
+    </div>
+
+    <div class="skills-container">
+        <div class="bars">
+            <div class="bars-box">
+                <h3>HTML</h3>
+                <span>96%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar html-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                        <h3>CSS</h3>
+                        <span>78%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar css-bar"></div>
+                    </div>
+            
+            <div class="bars-box">
+                            <h3>JavaScript</h3>
+                            <span>73%</span>
+                            <div class="light-bar"></div>
+                            <div class="percent-bar js-bar"></div>
+                        </div>
+        </div>
+
+        <div class="skills-img">
+             <img src="skills.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!----------services box---------->
+<section class="services" id="services">
+    <div class="heading">
+        <h2>Learning</h2>
+        <span>Our Services</span>    
+    </div>
+
+    <div class="services-content">
+        <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Development</h3>
+            <a href="">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class="bx bx-server"></i>
+            <h3>Frontend Development</h3>
+            <a href="">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Java</h3>
+            <a href="">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class="bx bx-server"></i>
+            <h3>Backend Development</h3>
+            <a href="">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+<!--------footer-------->
+<div class="footer">
+    <h2>Praneeth</h2>
+    <div class="footer-social">
+        <a href=""><i class="bx bxl-facebook"></i></a>
+        <a href=""><i class="bx bxl-twitter"></i></a>
+        <a href=""><i class="bx bxl-instagram"></i></a>
+        <a href=""><i class="bx bxl-linkedin"></i></a>
+    
+    </div>
+</div>
+
+<!--------copyright-->
+<div class="copyright">
+    <a href="">Created By <a href="">Praneeth</a> | Confirmed |</a>
+</div>
+
+
+
+
+    <script src="script.js"> </script>
+</body>
+</html>
